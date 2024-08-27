@@ -1,4 +1,3 @@
-const { error } = require('console');
 const { readFile, writeFile } = require('fs');
 
 readFile('./content/first.txt', 'utf8', (error, result) => {
